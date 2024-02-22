@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+input {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  height: 35px;
+  width: 350px;
+  text-align: center;
+  transform: translateY(200px);
+  border-style: solid gray;
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transform: translateY(200px);
+  text-transform: uppercase;
+}
+
+.Start-conversation {
+  margin-top: 220px;
+  transform: translateX(615px);
+  height: 35px;
+  cursor: pointer;
+}
+
+.Start-conversation:hover {
+  background-color: white;
+}
+
+.Start-conversation:active  {
+  background-color: bisque;
+}
